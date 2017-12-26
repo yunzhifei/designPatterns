@@ -1,4 +1,4 @@
-package com.bj.recivier;
+package com.bj.command.recivier;
 
 public class TestReceiver {
     public void play(){

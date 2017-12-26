@@ -1,7 +1,7 @@
-package com.bj.example;
+package com.bj.command.example;
 
-import com.bj.Invoker.TvInvoker;
-import com.bj.recivier.TestReceiver;
+import com.bj.command.Invoker.TvInvoker;
+import com.bj.command.recivier.TestReceiver;
 
 public class CommandExample {
     public static void main(String[] args) {

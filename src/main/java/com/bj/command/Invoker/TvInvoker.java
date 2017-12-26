@@ -1,7 +1,7 @@
-package com.bj.Invoker;
+package com.bj.command.Invoker;
 
-import com.bj.contract.Icommand;
-import com.bj.contract.enums.CommandCache;
+import com.bj.command.contract.Icommand;
+import com.bj.command.contract.enums.CommandCache;
 
 import java.util.HashMap;
 import java.util.Map;

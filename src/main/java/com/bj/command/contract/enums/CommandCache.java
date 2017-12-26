@@ -1,8 +1,8 @@
-package com.bj.contract.enums;
+package com.bj.command.contract.enums;
 
-import com.bj.contract.Icommand;
-import com.bj.contract.impl.PlayCommand;
-import com.bj.recivier.TestReceiver;
+import com.bj.command.contract.Icommand;
+import com.bj.command.contract.impl.PlayCommand;
+import com.bj.command.recivier.TestReceiver;
 import lombok.Data;
 
 import java.util.HashMap;

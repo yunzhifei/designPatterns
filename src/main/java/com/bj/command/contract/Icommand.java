@@ -1,4 +1,4 @@
-package com.bj.contract;
+package com.bj.command.contract;
 
 public interface Icommand {
     void excute();
