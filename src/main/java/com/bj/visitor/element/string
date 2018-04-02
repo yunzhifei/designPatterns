@@ -1,0 +1,22 @@
+public static void immutable() throws Exception {
+
+		String a = "hello";
+		String b = "hello";
+		String c = new String("hello");
+		System.out.println("--------------before-------------------");
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		System.out.println("c = " + c);
+
+		//修改String的值
+		Field field = String.class.getDeclaredField("value");
+		field.setAccessible(true);
+		char[] value = (char[]) field.get(a);
+		value[3] = '_';   //修改a所指向的值
+
+		System.out.println("--------------after-------------------");
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		System.out.println("hello");
+		System.out.println("c = " + c);
+	}
